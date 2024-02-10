@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:testa/pages/Activities.dart';
 import 'package:testa/pages/Chat.dart';
 import 'package:testa/pages/MedicalRecords.dart';
 import 'package:testa/pages/Notifications.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Chat(),
+      home: Activities(),
     );
 
   }
